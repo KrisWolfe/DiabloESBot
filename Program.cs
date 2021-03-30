@@ -13,7 +13,7 @@ namespace DiabloESBot
     {
       BotClient = new DiscordSocketClient();
       CHandler = new CommandHandler();
-      await BotClient.LoginAsync(Discord.TokenType.Bot, "", true);
+      await BotClient.LoginAsync(Discord.TokenType.Bot, "ODI2MjY2NzIxOTkyMTc5NzEz.YGJ-2Q.p1yLVMDL5UHkSDUGH0mTn8YzMhI", true);
       await BotClient.StartAsync();
       await CHandler.Install(BotClient);
       await Task.Delay(-1);
